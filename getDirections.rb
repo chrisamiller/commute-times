@@ -26,13 +26,13 @@ left=-90.000000
 bottom=38.999999
 right=-91.000000
 
-#the google API only allows 2500 requests per day, so base our resolution on this limit.
-#40x40 gets us in the neighborhood and leaves some breathing room for false starts, testing, etc. 
-vinc = (top-bottom)/40
-hinc = (right-left).abs/40
+# the google API only allows 2500 requests per day, so base our resolution on this limit.
+# 27x27 (times 3 locations) gets us in the neighborhood and leaves some breathing room for false starts, testing, etc. 
+vinc = (top-bottom)/27
+hinc = (right-left).abs/27
 
-#if you want to alter the spacing to add resolution to a subsequent run,
-#modify the start coords here
+# if you want to alter the spacing to add resolution to a subsequent run,
+# modify the start coords here
 #left = left +(hinc/2)
 #top = top +(vinc/2)
 

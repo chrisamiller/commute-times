@@ -1,0 +1,5 @@
+A little hacky code to visualize drive times from multiple locations in Google Earth.  Great for choosing places to live within a given commute distance.
+
+1) Modify the code to enter a) the geo coordinates of three locations you care about and b) the area that you want to search within
+2) Run getDirections.rb to grab drive times from a grid of points within that area
+3) run createXML.rb to transform that list of coordinates/times into a KML file that can be loaded into Google Earth.
